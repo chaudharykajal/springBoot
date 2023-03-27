@@ -1,0 +1,5 @@
+package com.psa.student1;
+
+public class StudentImpl implements StudentInterface {
+
+}

@@ -1,0 +1,5 @@
+package com.dbex.dao;
+
+public class EmployeeImplDao {
+
+}

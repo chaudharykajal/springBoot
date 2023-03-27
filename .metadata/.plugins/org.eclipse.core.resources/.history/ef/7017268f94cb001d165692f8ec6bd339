@@ -1,0 +1,7 @@
+package com.psa.student1;
+
+public interface StudentInterface {
+
+	void insertData();
+
+}

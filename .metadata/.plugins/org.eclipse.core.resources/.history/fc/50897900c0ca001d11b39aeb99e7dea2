@@ -1,0 +1,19 @@
+package com.dbex.runner;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+
+import com.dbex.dao.EmployeeImplDao;
+
+public class MyRunner implements CommandLineRunner {
+	@Autowired
+	EmployeeImplDao emp;
+	
+	@Override
+	public void run(String... args) throws Exception {
+		emp.insertRecords();
+		emp.getRecords();
+
+	}
+
+}

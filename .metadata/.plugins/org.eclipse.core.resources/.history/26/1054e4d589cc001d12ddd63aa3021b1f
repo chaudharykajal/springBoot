@@ -1,0 +1,7 @@
+package com.studentreg.impliment;
+
+public interface StudentInterface {
+
+	void insertData();
+
+}

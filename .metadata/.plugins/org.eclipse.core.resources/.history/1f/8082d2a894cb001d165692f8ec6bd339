@@ -1,0 +1,18 @@
+package com.psa.student1;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Component;
+
+@Component
+public class StudentImpl implements StudentInterface {
+	@Autowired
+	JdbcTemplate jt;
+	
+	@Override
+	public void insertData()
+	{
+		String inst="insert into stud1(101,'Rahul')";
+		jt.update(inst);
+	}
+}

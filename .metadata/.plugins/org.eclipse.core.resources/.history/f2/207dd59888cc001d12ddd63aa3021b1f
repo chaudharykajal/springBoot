@@ -1,0 +1,14 @@
+package com.studentreg.student1;
+
+import java.util.List;
+
+
+
+
+public interface StudentInterface {
+
+	void insertData();
+
+	List selectData();
+
+}

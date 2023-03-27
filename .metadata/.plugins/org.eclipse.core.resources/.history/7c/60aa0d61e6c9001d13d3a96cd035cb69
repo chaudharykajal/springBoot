@@ -1,0 +1,7 @@
+package com.psa.imp;
+
+
+@Component
+public interface DAOInterface {
+
+}

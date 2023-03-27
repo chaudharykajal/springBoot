@@ -1,0 +1,5 @@
+package com.studentreg.impliment;
+
+public class StudentImpl implements StudentInterface {
+
+}

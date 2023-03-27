@@ -1,0 +1,16 @@
+package com.dbex.dao;
+
+import java.util.List;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class EmployeeImplDao {
+
+	
+	public void insertRecords() {}
+	public List getRecords() {
+		return null;
+	}
+	
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=demo1_demo1/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.psa.imp{DAOInterface.java[DAOInterface" modifiers="513" timestamp="1679622682636"/>
+    <typeInfo handle="=Student/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.psa.student1{StudentInterface.java[StudentInterface" modifiers="513" timestamp="1679833657302"/>
+    <typeInfo handle="=demo1_demo1/C:\/Users\/Admin\/.m2\/repository\/org\/springframework\/boot\/spring-boot\/3.0.5\/spring-boot-3.0.5.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.boot=/=/maven.artifactId=/spring-boot=/=/maven.version=/3.0.5=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.boot(CommandLineRunner.class[CommandLineRunner" modifiers="1537" timestamp="1679592628851"/>
+</typeInfoHistroy>

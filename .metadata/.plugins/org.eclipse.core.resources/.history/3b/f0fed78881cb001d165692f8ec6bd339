@@ -1,0 +1,22 @@
+package com.dbex.dao;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Component;
+
+@Component
+public class EmployeeImplDao implements  EmployeeInterfaceDao {
+	@Autowired
+	JdbcTemplate jt;
+	
+	public void insertRecords() {
+		System.out.println("Test Case 3");
+	}
+	public List getRecords() {
+		System.out.println("Test Case 4");
+		return null;
+	}
+	
+}
