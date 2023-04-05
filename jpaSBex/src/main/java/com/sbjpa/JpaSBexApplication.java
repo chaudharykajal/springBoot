@@ -1,0 +1,13 @@
+package com.sbjpa;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class JpaSBexApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(JpaSBexApplication.class, args);
+	}
+
+}
