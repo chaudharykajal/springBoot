@@ -20,13 +20,13 @@ public class ProductServices {
 	 public List<Product> getProducts(){
 		 return ProdRepo.findAll();
 	 }
-	public Product addProducts(@RequestBody Product product) {
+	public Product addProducts(Product product) {
 		// TODO Auto-generated method stub
 		Product insertProd=ProdRepo.save(product);
 		return insertProd;
 	}
-	public ResponseEntity<Product> updateProducts(@PathVariable Integer id,
-			@RequestBody Product product)
+	public ResponseEntity<Product> updateProducts(Integer id,
+			Product product)
 	{
 		Product getProd=ProdRepo.getById(id);
 		getProd.setProductName(product.getProductName());
@@ -37,7 +37,7 @@ public class ProductServices {
 		return ResponseEntity.ok().body(updateProd);
 	}
 	
-	public void delete(@PathVariable Integer id)
+	public void delete(Integer id)
 	{
 		ProdRepo.deleteById(id);
 	}
